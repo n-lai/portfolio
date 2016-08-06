@@ -1,0 +1,9 @@
+// Neat Grid System
+
+.container {
+	@include outer-container();
+}
+
+.neat-6 {
+	@include span-columns(6);
+}

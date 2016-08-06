@@ -1,0 +1,59 @@
+@mixin vertical-align() {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin nexa-light(){
+	font-family: NexaLight;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin nexa-bold(){
+	font-family: NexaBold;
+	font-weight: normal;
+	font-style: normal;	
+}
+
+@mixin avenir-light() {
+	font-family: AvenirLTStd-Light;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+@mixin gibson-light() {
+	font-family: canada-type-gibson;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+@mixin gibson-regular() {
+	font-family: canada-type-gibson;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+@mixin gibson-bold() {
+	font-family: canada-type-gibson;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+@mixin white-gradient(){
+
+}
+
+
+
+
+
+
+
+
