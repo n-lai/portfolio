@@ -42,7 +42,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
-  margin: 20% auto;
+  margin: 10% auto;
 }
 
 .profile-pic {
@@ -60,4 +60,34 @@ p {
   justify-content: space-between;
   width: 135px;
   margin: 0 auto;
+}
+
+.icons img {
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  border-top: 3px solid #8cb3e1;
+  width: 50px;
+}
+
+.projects {
+  width: 50%;
+  height: 175%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project {
+  height: 33%;
+}
+.project-img-container {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
