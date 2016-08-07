@@ -19,6 +19,45 @@ html, body {
   font-size: 14px;
   font-weight: 300;
   font-family: "proxima-nova", sans-serif;
-
   list-style-type: none;
+}
+
+h1 {
+  font-family: "freight-text-pro";
+  font-size: 45px;
+  font-style: italic;
+  color: #8cb3e1;
+}
+
+p {
+  font-family: "freight-text-pro";
+  font-size: 28px;
+  color: #a6a6a6;
+}
+
+.introduction {
+  text-align: center;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20% auto;
+}
+
+.profile-pic {
+  width: 135px;
+  height: 135px;
+  background-image: url('../img/profile_picture.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 135px;
+  margin: 0 auto;
 }
