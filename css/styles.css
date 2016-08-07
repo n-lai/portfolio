@@ -26,12 +26,14 @@ h1 {
   font-family: "freight-text-pro";
   font-size: 45px;
   font-style: italic;
+  letter-spacing: 1.7px;
   color: #8cb3e1;
 }
 
 p {
   font-family: "freight-text-pro";
   font-size: 28px;
+  letter-spacing: 0.5px;
   color: #a6a6a6;
 }
 
@@ -118,4 +120,16 @@ footer hr {
   border-top: 1px solid #e5e5e5;
   width: 80%;
   margin: 0 10% 28px 10%;
+}
+
+/* Project pages */
+header {
+  text-align: center;
+  background-color: #fafafa;
+}
+header h1 {
+  color: #b6b6b6;
+  font-size: 36px;
+  padding-top: 29px;
+  padding-bottom: 33px;
 }
