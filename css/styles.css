@@ -113,7 +113,7 @@ hr {
   height: 402px;
 }
 .project-img-container {
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 300px;
@@ -194,7 +194,7 @@ h1.project-h1 {
   letter-spacing: 0.4px;
   color: #a6a6a6;
   font-family: "freight-text-pro";
-  padding-top: 33px;
+  margin: 50px auto;
 }
 
 .project-intro a, .introduction a {
@@ -204,11 +204,7 @@ h1.project-h1 {
   letter-spacing: 0.4px;
   color: #8cb3e1;
   font-family: "freight-text-pro";
-
-}
-
-.project-live {
-
+  cursor: pointer;
 }
 
 .project-pics {
@@ -222,7 +218,6 @@ h1.project-h1 {
   background-repeat: no-repeat;
   height: 450px;
   width: 30%;
-  background-color: blue;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 }
 

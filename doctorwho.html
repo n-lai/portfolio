@@ -19,34 +19,37 @@
           Doctor Who Tab is a chrome extension built with React.js, JavaScript, and HTML/CSS. It replaces the standard Google chrome new tab with a Doctor Who themed to-do list and inspiring quote.
         </p>
 
-        <div class="project-img-container" style="background-image: url('./img/puppies_search.png')">
+        <div class="project-img-container" style="background-image: url('./img/doctor_who_project.png');
+        background-position: top">
         </div>
 
         <span class='project-intro'>Visit this live at <a href="https://chrome.google.com/webstore/detail/doctor-who-tab/ckpglafpbjagceoefmgcifimljefkenb">the Chrome Web Store</a></span>
 
         <p class='project-intro'>
-          The primary feature of PuppiesBnb is its search function and it incorporates Google Places API - specifically, Place Autocomplete. A listener is set on the autocomplete bar and after a user types in an address or a city, the latitude and longitude are extracted from the address information and sent as params to the map component.
+          Background images and quotes are stored in arrays. A random number generator determines which wallpaper and quote will be shown.
         </p>
 
       </div>
 
       <div class="project-pics">
-        <div class="project-page-img" style="background-image: url('./img/puppy_detail.png'); background-position: right">
+        <div class="project-page-img" style="background-image: url('./img/doctor_who_todo.png'); background-position: right;
+        width: 47%">
 
         </div>
 
-        <div class="project-page-img" style="background-image: url('./img/puppiesbnb_map.png')">
+        <!-- <div class="project-page-img" style="background-image: url('./img/puppiesbnb_map.png')">
 
-        </div>
+        </div> -->
 
-        <div class="project-page-img" style="background-image: url('./img/user_puppy_list.png'); background-position: right">
+        <div class="project-page-img" style="background-image: url('./img/doctor_who_quote.png'); background-position: bottom;
+        width: 47%">
 
         </div>
       </div>
 
       <div class="project-after-pics">
         <p class='project-intro'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis eleifend risus, in tempor nibh. Phasellus vitae nibh vitae metus suscipit hendrerit. Mauris sollicitudin ligula ac arcu pulvinar,  sed auctor nibh eleifend. Donec condimentum elementum odio, a tempor odio.
+          The to-do list is built with React.js and the tasks are stored in chrome.local storage. A listener is added to chrome storage and updates the to-do list as the user deletes and adds new tasks.
         </p>
 
       </div>
