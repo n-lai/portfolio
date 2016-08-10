@@ -157,11 +157,16 @@ header {
   text-align: center;
   background-color: #fafafa;
 }
+
 header h1 {
   color: #b6b6b6;
   font-size: 36px;
   padding-top: 29px;
   padding-bottom: 33px;
+}
+
+header h1:hover {
+  color: #8e8e8e;
 }
 
 h1.project-h1 {
