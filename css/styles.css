@@ -259,7 +259,7 @@ h1 span.project-h1 {
   display: block;
   margin: 0 2px;
   padding: 0.625rem 1.25rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   overflow: hidden;
 
