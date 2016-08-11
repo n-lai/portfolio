@@ -118,6 +118,40 @@ hr {
   background-repeat: no-repeat;
   height: 300px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.overlay:before {
+  position: absolute;
+  content: " ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:0;
+}
+
+.overlay:hover:before {
+  display: block;
+  /*background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);*/
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.project-img-container:hover .image-description {
+  cursor: pointer;
+  visibility: visible;
+  z-index: 1000;
+}
+
+.image-description {
+  visibility: hidden;
+  color: white;
+  font-family: "proxima-nova";
+  padding: 50px;
 }
 
 .project a {
@@ -126,11 +160,33 @@ hr {
   letter-spacing: 0.4px;
   display: inline-block;
   padding-top: 20px;
+  position: relative;
+  text-decoration: none;
 }
 
-.project a:hover {
-  text-decoration: underline;
+.project a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #8cb3e1;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
+
+.project a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/*.project a:hover {
+  text-decoration: underline;
+}*/
 
 footer {
   text-align: center;
