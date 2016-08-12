@@ -73,6 +73,10 @@ p {
   cursor: pointer;
 }
 
+.linkedin:hover {
+  background: url('../img/linkedin_hover.svg');
+}
+
 a button {
   border: 2px solid #8cb3e1;
   padding: 10px;
@@ -124,31 +128,13 @@ hr {
   justify-content: space-around;
 }
 
-/*.overlay:before {
-  position: absolute;
-  content: " ";
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display: none;
-  z-index:0;
-}*/
-
-/*.overlay:hover:before {
-  display: block;
-  background: rgba(0, 0, 0, 0.7);
-}*/
-
 .project-img-container:hover .image-description {
   cursor: pointer;
-  /*visibility: visible;*/
   opacity: 1;
   z-index: 1000;
 }
 
 .image-description {
-  /*visibility: hidden;*/
   color: white;
   font-family: "proxima-nova";
   background: rgba(0,0,0,0.75);
@@ -158,8 +144,6 @@ hr {
   justify-content: space-around;
   padding: 50px;
 
-  /*position: absolute;*/
-  padding: 10px 20px;
   opacity: 0;
   bottom: 0;
   left: -30%;
