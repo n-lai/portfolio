@@ -124,7 +124,7 @@ hr {
   justify-content: space-around;
 }
 
-.overlay:before {
+/*.overlay:before {
   position: absolute;
   content: " ";
   top:0;
@@ -133,25 +133,58 @@ hr {
   height:100%;
   display: none;
   z-index:0;
-}
+}*/
 
-.overlay:hover:before {
+/*.overlay:hover:before {
   display: block;
   background: rgba(0, 0, 0, 0.7);
-}
+}*/
 
 .project-img-container:hover .image-description {
   cursor: pointer;
-  visibility: visible;
+  /*visibility: visible;*/
+  opacity: 1;
   z-index: 1000;
 }
 
 .image-description {
-  visibility: hidden;
+  /*visibility: hidden;*/
   color: white;
   font-family: "proxima-nova";
+  background: rgba(0,0,0,0.75);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 50px;
+
+  /*position: absolute;*/
+  padding: 10px 20px;
+  opacity: 0;
+  bottom: 0;
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
 }
+
+.overtext {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+
+.image-description:hover .overtext,
+.image-description:focus .overtext {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
 
 .project a {
   font-size: 22px;
