@@ -73,6 +73,10 @@ p {
   cursor: pointer;
 }
 
+.linkedin:hover {
+  background: url('../img/linkedin_hover.svg');
+}
+
 a button {
   border: 2px solid #8cb3e1;
   padding: 10px;
@@ -124,6 +128,7 @@ hr {
   justify-content: space-around;
 }
 
+<<<<<<< HEAD
 /*.overlay:before {
   position: absolute;
   content: " ";
@@ -143,12 +148,19 @@ hr {
 .project-img-container:hover .image-description {
   cursor: pointer;
   /*visibility: visible;*/
+=======
+.project-img-container:hover .image-description {
+  cursor: pointer;
+>>>>>>> master
   opacity: 1;
   z-index: 1000;
 }
 
 .image-description {
+<<<<<<< HEAD
   /*visibility: hidden;*/
+=======
+>>>>>>> master
   color: white;
   font-family: "proxima-nova";
   background: rgba(0,0,0,0.75);
@@ -158,14 +170,18 @@ hr {
   justify-content: space-around;
   padding: 50px;
 
+<<<<<<< HEAD
   /*position: absolute;*/
   padding: 10px 20px;
+=======
+>>>>>>> master
   opacity: 0;
   bottom: 0;
   left: -30%;
   -webkit-transition: all 0.6s ease;
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
+<<<<<<< HEAD
 }
 
 .overtext {
@@ -185,6 +201,27 @@ hr {
   -webkit-transform: translateY(0px);
 }
 
+=======
+}
+
+.overtext {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+
+.image-description:hover .overtext,
+.image-description:focus .overtext {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+>>>>>>> master
 
 .project a {
   font-size: 22px;
